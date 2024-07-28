@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+#home{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+#home:hover{
+    color: black;
+}
+#feature{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+#feature:hover{
+    color: black;
+}
+#pricing{
+     font-size: 15px;
+    font-weight: 500;
+    color: white;
+
+}
+#pricing:hover{
+    color: black;
+}
+
+#navbarDropdownMenuLink{
+    font-size: 15px;
+   font-weight: 500;
+   color: white;
+
+}
+#navbarDropdownMenuLink:hover{
+   color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-types{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+
+}
+.card-types:hover{
+    transparent: rgb(138, 121, 121);
+
+}
+
+.image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.heading{
+    font-family: bree serif;
+}
+.heading-des{
+font-variant: small-caps;
+
+}
+.type-button{
+    background-color: yellow;
+    border-radius: 20px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    border-width: 0px;
+}
+.type-button:hover{
+    background-color: rgb(223, 219, 219);
+    color: orange;
+    border-width: 0px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.exper-card{
+    text-align: center;
+ background-color: bisque;
+ padding: 20px;
+
+}
+
+
+.exper-heading{
+margin-top: 30px;
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+
+font-weight: 800;
+margin-bottom: 20px;
+color: rgb(71, 192, 27);
+
+
+}
+.exper-des{
+    color: rgb(58, 49, 39);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 600;
+font-style: oblique;
+
+}
+
+.amaging-card{
+    text-align: center;
+    background-color: ue;
+    padding: 20px;
+    border-width: 1px;
+    border-color: rgb(153, 146, 146);
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+.palce-card{
+   background-color: white;
+   text-align: center;
+   padding-bottom: ;
+
+
+}
+.amazing-place-heading{
+    color: rgb(21, 20, 20);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    
+}
+.bg-read{
+    text-align: center;
+}
+.more-button{
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 5px;
+    height: 45px;
+width: 110px;
+background-color:rgb(27, 181, 192);
+color: white;
+
+}
+.more-button:hover{
+    background-color: rgb(0, 76, 255);
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.bg-footer{
+    background-color: rgb(6, 6, 6);
+   padding: 60px;
+   text-align: center;
+  
+
+}
+.fotter-words{
+    color: white;
+    margin-top: px;
+
+
+}
+.fotter-logo{
+    margin-right: 50px;
+}
+a.link{
+    color: white;
+    margin: 8px;
+    
+}
+a.link:hover{
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    width: auto;
+    height: 30px;
+
+    
+}
+.fotter-image{
+    height: 50px;
+
+}
+.fa-brands {
+    
+}
+.bg-fotter{
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+.icon-1{
+    font-size: 30px;
+    background-color: rgb(40, 121, 39);
+    padding-top: 7px;
+    color: white;
+    border-radius: 18px;
+    margin: px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+
+}
+.icon-2{
+    font-size: 30px;
+    background-color: rgb(212, 216, 212);
+    padding-top: 7px;
+    color: rgb(14, 141, 226);
+    border-radius: 18px;
+    margin: px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+
+}
+.icon-3{
+    font-size: 30px;
+    background-color: rgb(240, 24, 78);
+    padding-top: 7px;
+    color: white;
+    border-radius: 18px;
+    margin: px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+
+}
+.icon-4{
+    font-size: 30px;
+    background-color: rgb(243, 244, 248);
+    padding-top: 7px;
+    color: rgb(46, 21, 242);
+    border-radius: 18px;
+    margin: px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+
+}
+
+
+
+.footer-heading{
+    color: white;
+    font-family:  Rockwell;
+}
+.footer-details{
+    color: white;
+    font-family:  roboto;
+
+}
+
+
+
+
+
+
+.bg-top-nature{
+    
+}
+.palce-card-2{
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+.nature-card{
+    padding: 5px;
+
+}
+.nature-images{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+.amazing-place-heading-2{
+    background-color: rgb(26, 144, 144);
+    color: rgb(253, 253, 253);
+    border-width: 0px;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 30px;
+    width: 50px;
+    font-size: 20px;
+    font-family: bree;
+    border-radius: 6px;
+
+
+
+}
+
+#nature{
+    color: white;
+
+}
+
+#devotes{
+    color: white;
+    
+}
+
+#culture{
+    color: white;
+    
+}
+
+#famousq{
+    color: white;
+    
+}
+
+.matter-card{
+    padding: 30px;
+    text-align: center;
+
+}
+.matter-des{
+    font-size: 15px;
+    padding: 10px;
+
+
+}
+.somasila{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.map{
+    display: flex;
+
+}
+.explore-button{
+    background-color: linear-gradient(
+        to right,red,orange
+    );
+    background-color: rgb(250, 156, 34);
+    border-radius: 5px;
+    border-width: 0px;
+    border-color: none;
+
+
+}
+.explore-button:hover{
+    letter-spacing: 3px;
+   color: white;
+}
+.bg-visti-placess{
+    text-align: center;
+}
+.bg-form{
+    text-align:center;
+    background-color: aua;
+    padding:20px;
+    
+    
+    
+}
+.bg-clr{
+    margin-left: 20px;
+}
+.bg-br{
+text-alig: center;
+
+
+}
+label {
+    display: inline-block;
+    width: 120px;
+    font-size: 20px;
+    color: ;
+    font-weight: 500;
+}
+.visiter-details{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: bree;
+    text-align:center;
+
+
+
+}
+.register-bg{
+    background-image: url("https://www.wns.co.za/Portals/0/Images/HeaderBanner/desktop/1087/53/travel_HD.jpg");
+    width: cover;
+    height: auto;
+}
+
+
+
+
+.body{
+
+
+    background-image: url("https://www.wns.co.za/Portals/0/Images/HeaderBanner/desktop/1087/53/travel_HD.jpg");
+    
+    color: white;
+    text-align: center;
+    
+     }
+     label {
+        display: inline-block;
+        width: 120px;
+        font-size: 20px;
+        color: ;
+        font-weight: 500;
+    }
+    
+    .bg-galary-heading{
+        text-align: center;
+        padding: 20px;
+
+    }
+    .galary-heading{
+        font-size: 50px;
+        color: rgb(19, 16, 213);
+        font-family: relative;
+
+
+    }
+    .galary-des{
+        color: rgb(75, 70, 70);
+        font-size: 30px;
+        font-style:oblique;
+
+    }
+    .galary{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+
+    }
+    .pic-bg{
+        text-decoration:none;
+    }
+    #underline {
+        text-decoration: none;
+    }
+    .pic-head{
+        font-size: 25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: black;
+        text-decoration: none;
+        text-align: let;
+        margin-left: 6px;
+    }
+    .pic-hea{
+        font-size: 25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: black;
+        text-decoration: none;
+        text-align: lft;
+        margin-left: 6px;
+    }
+    .rating{
+        text-align: eft;
+        font-size: 17px;
+        color: rgb(86, 83, 83);
+        margin-left: 6px;
+        margin-right:6px ;
+        font-weight: 500;
+        font-family: ;
+    }
+    .checked{
+        color: orange;
+    }
+    .ratig{
+        text-align: left;
+        font-size: 17px;
+        color: rgb(86, 83, 83);
+        margin-left: 6px;
+        margin-right:6px ;
+        font-weight: 500;
+        font-family: ;
+
+    }
+    .ratin{
+        text-align: lft;
+        font-size: 17px;
+        color: rgb(86, 83, 83);
+        margin-left: 6px;
+        margin-right:6px ;
+        font-weight: 500;
+        font-family: ;
+
+    }
+
+
+    .carrd{
+        text-decoration: none;
+    }

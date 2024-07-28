@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="forms.css">
+    <style>
+        body {
+            background-image: url("https://www.wns.co.za/Portals/0/Images/HeaderBanner/desktop/1087/53/travel_HD.jpg");
+            color: white;
+            text-align: center;
+        }
+
+        label {
+            display: inline-block;
+            width: 120px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        #submit {
+            width: 70px;
+            background-color: blueviolet;
+            color: white;
+            border-width: 0px;
+            border-radius: 5px;
+            padding: 3px;
+            font: 15px;
+        }
+
+        #submit:hover {
+            background-color: rgb(95, 51, 109);
+        }
+    </style>
+</head>
+<body>
+    <div class="col-12">
+        <div class="text-center text-md-left">
+            <a href="index.html"><img src="logo.jpg.png" class="image-vr mt-5" height="100px"></a>
+        </div>
+   
+        <div class="register-bg">
+            <h1 style="text-decoration: underline">Register</h1>
+            <form action="index.php" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" required>
+                </div><br>
+                <div>
+                    <label for="mobile">Mobile:</label>
+                    <input type="tel" name="mobile" required>
+                </div><br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required>
+                </div><br>
+                <div>
+                    <label for="tickets">Tickets:</label>
+                    <input type="text" id="tickets" name="tickets" required>
+                </div><br>
+                <div>
+                    <label for="startdate">Start date:</label>
+                    <input type="text" name="startdate">
+                </div><br>
+                <div>
+                    <label for="enddate">End date:</label>
+                    <input type="text" name="enddate">
+                </div><br>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password">
+                </div><br>
+                <input id="submit" type="submit" value="Book">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
